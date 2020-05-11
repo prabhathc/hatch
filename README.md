@@ -1,3 +1,6 @@
+<!--- 
+Properly formatted README can be found at https://github.com/prabhathc/hatch/blob/master/README.md
+--->
 
 # Hatch Coding Exercise 
 
@@ -17,7 +20,7 @@
 
 ## Instructions
 - After extracting contents of hatch.zip, open a shell and navigate into the ```./hatch``` directory.
-- Use  ```$ sh prabhath.sh -h``` to recieve a list of commands and general info regarding the program and what its output means.
+- Use  ```$ sh prabhath.sh -h``` to recieve a list of commands and what they do.
 
 ## Code
 - The ```.java``` files can be found in the ```./hatch/src/com/hatchcard/prabhath``` directory.
