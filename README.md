@@ -20,7 +20,8 @@ Properly formatted README can be found at https://github.com/prabhathc/hatch/blo
 
 ## Instructions
 - After extracting contents of hatch.zip, open a shell and navigate into the ```./hatch``` directory.
-- Use  ```$ sh prabhath.sh -h``` to recieve a list of commands and what they do.
+- This is a Java program and requires JDK 8 or later, so install it first. Ubuntu users may use the following command: ```sudo apt-get install default-jdk```
+- Use  ```$ bash prabhath.sh -h``` to recieve a list of commands and what they do.
 
 ## Code
 - The ```.java``` files can be found in the ```./hatch/src/com/hatchcard/prabhath``` directory.

@@ -12,10 +12,10 @@ elif [ "$ARG" == "-cr" ]; then
     java -cp ./bin com.hatchcard.prabhath.Boss ${TIMELIMIT}
 elif [ "$ARG" == "-h" ]; then
     echo ""
-    echo -e "\e[32m$ sh prabhath.sh -c                \e[39mto compile"
-    echo -e "\e[32m$ sh prabhath.sh -r TIMELIMIT      \e[39mto run, where TIMELIMIT (in ms) is optional"
-    echo -e "\e[32m$ sh prabhath.sh -cr TIMELIMIT     \e[39mto compile and run, where TIMELIMIT (in ms) is optional"
-    echo -e "\e[32m$ sh prabhath.sh -h                \e[39m(for help)"
+    echo -e "\e[32m$ bash prabhath.sh -c                \e[39mto compile"
+    echo -e "\e[32m$ bash prabhath.sh -r TIMELIMIT      \e[39mto run, where TIMELIMIT (in ms) is optional"
+    echo -e "\e[32m$ bash prabhath.sh -cr TIMELIMIT     \e[39mto compile and run, where TIMELIMIT (in ms) is optional"
+    echo -e "\e[32m$ bash prabhath.sh -h                \e[39m(for help)"
 else
     echo -e "Command unavailable, try \e[32m$ sh prabhath.sh -h \e[39mfor help."
 fi
